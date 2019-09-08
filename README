@@ -13,6 +13,7 @@ of a case sensitive file system.
 
 You need gcc, binutils, bzip2, flex, python, perl, make, find, grep, diff,
 unzip, gawk, getopt, subversion, libz-dev and libc headers installed.
+Run "sudo apt install gcc binutils bzip2 flex python perl make grep unzip gawk getopt subversion libz-dev g++ libncurses5-dev"
 
 1. Run "./scripts/feeds update -a" to obtain all the latest package definitions
 defined in feeds.conf / feeds.conf.default
