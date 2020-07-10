@@ -5,7 +5,7 @@
 
 case "$ACTION" in
 	ifup)
-		/etc/init.d/xlnetacc start
+		/etc/init.d/xlnetacc restart
 		;;
 	ifdown)
 		/etc/init.d/xlnetacc stop
