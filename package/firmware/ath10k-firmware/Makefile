@@ -67,7 +67,7 @@ endef
 QCA988X_FIRMWARE_FILE_CT:=firmware-2-ct-full-community-22.bin.lede.013
 define Download/ath10k-firmware-qca988x-ct
   $(call Download/ct-firmware,QCA988X,)
-  HASH:=19db86003509dedb8ace339c183813ca637d65af24d00666411d1590efe33e13
+  HASH:=ce94a43898f0824fe082a8913314306468e26387dbb35f28db924d20a3e4d4bf
 endef
 $(eval $(call Download,ath10k-firmware-qca988x-ct))
 
