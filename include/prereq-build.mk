@@ -28,8 +28,8 @@ $(eval $(call TestHostCommand,proper-umask, \
 
 $(eval $(call SetupHostCommand,gcc, \
 	Please install the GNU C Compiler (gcc) 4.8 or later, \
-	$(CC) -dumpversion | grep -E '^(4\.[8-9]|[5-9]\.?|10\.?)', \
-	gcc -dumpversion | grep -E '^(4\.[8-9]|[5-9]\.?|10\.?)', \
+	$(CC) -dumpversion | grep -E '^(4\.[8-9]|[5-9]\.?|11\.?)', \
+	gcc -dumpversion | grep -E '^(4\.[8-9]|[5-9]\.?|11\.?)', \
 	gcc48 --version | grep gcc, \
 	gcc49 --version | grep gcc, \
 	gcc5 --version | grep gcc, \
@@ -48,8 +48,8 @@ $(eval $(call TestHostCommand,working-gcc, \
 
 $(eval $(call SetupHostCommand,g++, \
 	Please install the GNU C++ Compiler (g++) 4.8 or later, \
-	$(CXX) -dumpversion | grep -E '^(4\.[8-9]|[5-9]\.?|10\.?)', \
-	g++ -dumpversion | grep -E '^(4\.[8-9]|[5-9]\.?|10\.?)', \
+	$(CXX) -dumpversion | grep -E '^(4\.[8-9]|[5-9]\.?|11\.?)', \
+	g++ -dumpversion | grep -E '^(4\.[8-9]|[5-9]\.?|11\.?)', \
 	g++48 --version | grep g++, \
 	g++49 --version | grep g++, \
 	g++5 --version | grep g++, \
