@@ -19,6 +19,8 @@ ramips_setup_interfaces()
 	ohyeah,oy-0001|\
 	phicomm,psg1208|\
 	phicomm,psg1218a|\
+	phicomm,psg1218a-16m|\
+	phicomm,psg1218a-32m|\
 	planex,db-wrt01|\
 	planex,mzk-750dhp|\
 	sanlinking,d240|\
@@ -268,6 +270,8 @@ ramips_setup_macs()
 	alfa-network,ac1200rm|\
 	dlink,dir-810l|\
 	phicomm,psg1218a|\
+	phicomm,psg1218a-16m|\
+	phicomm,psg1218a-32m|\
 	phicomm,psg1218b)
 		wan_mac=$(macaddr_add "$(mtd_get_mac_binary factory 0x28)" 1)
 		;;
