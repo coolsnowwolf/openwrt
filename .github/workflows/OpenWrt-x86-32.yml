@@ -12,7 +12,7 @@ name: OpenWrt-x86-32
 on:
   push:
     branches: 
-      - lede-17.01
+      - master
   schedule:
     - cron: 0 20 * * *
   release:
